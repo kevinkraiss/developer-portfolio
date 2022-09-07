@@ -1,0 +1,114 @@
+:root{
+    --color1:rgb(137, 154, 136);
+    --color2:#eef0f0;
+    --color3:#d6d9d0;
+    --color4:#b7bdb0;
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: var(--color3);
+}
+
+img {
+    border-radius: 15px;
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+li {
+    
+}
+
+nav {
+    padding-top: 24px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+}
+
+header {
+    background-color: var(--color1);
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--color1);
+  }
+  
+header li {
+    float: right;
+}
+  
+header li a {
+    display: block;
+    color: var(--color2);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header a:hover {
+    background-color: var(--color3);
+    color: var(--color1);
+}
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+    padding: 5px 0px 5px 20px;
+    color: var(--color2);
+}
+
+h2 {
+    font-size: 36px;
+    padding: 0px 10px 0px 20px;
+    color: var(--color1);
+    border-right: solid 4px var(--color4);
+    text-align: right;
+    width: 15%;
+}
+
+p {
+    width: 60%;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    margin: 10px 10px 15px 100px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.work {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+
