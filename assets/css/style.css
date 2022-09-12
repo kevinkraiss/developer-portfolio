@@ -11,11 +11,12 @@
 
 body {
     background-color: var(--color3);
+
 }
 
 img {
     border-radius: 15px;
-    margin: 10px;
+    margin: 15px;
 }
 
 ul {
@@ -24,10 +25,6 @@ ul {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    
-}
-
-li {
     
 }
 
@@ -80,35 +77,127 @@ h2 {
     font-size: 36px;
     padding: 0px 10px 0px 20px;
     color: var(--color1);
-    border-right: solid 4px var(--color4);
     text-align: right;
     width: 15%;
 }
 
 p {
-    width: 60%;
-    margin: 10px;
-    padding: 10px;
+    margin: 20px;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
 }
 
 section {
-    margin: 10px 10px 15px 100px;
+    margin: 10px auto 15px auto;
     padding: 5px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    
 }
 
-.work {
+#profile-pic {
+    border: solid black 2px;
+    min-width: 200px;
+}
+
+
+
+#work {
+    display: flex;
+    flex-direction: row;
+}
+
+.mini-projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.container1{
+    margin: 20px auto;
+    width:800px;
+    height:800px;
+    background-color:var(--color3);
+    display:grid;
+    grid-template-columns: 800px;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.container2{
+    margin: 20px auto;
+    width:800px;
+    height:800px;
+    background-color:var(--color3);
+    display:grid;
+    grid-template-columns: 400px 400px;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.box{
+    background-color:var(--color1);
+    padding:20px;
+    border-radius:10px;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:40px;
+}
+
+#about {
     display: inline-flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: row;
+}
+
+#about .content-card {
+ 
+    width:75%;
+    justify-items: center;
+    display: flex;
+}
+
+#resume .content-card {
+ 
+    width:75%;
+    justify-items: center;
+    display: flex;
+}
+
+#contact .content-card {
+ 
+    width:75%;
+    justify-items: center;
+    display: flex;
+}
+
+#work .content-card {
+
+    padding: 5%;
+}
+
+#contact, #resume {
+    width: 100%;
+  
+ 
+}
+
+.content-card {
+    border-left: solid var(--color4) 5px;
 }
 
 
+@media (max-width: 767px) {
+    .container2 {
+        display: block;
+    }
+}
 
 
 
