@@ -16,7 +16,7 @@ body {
 
 img {
     border-radius: 15px;
-    margin: 15px;
+
 }
 
 ul {
@@ -25,16 +25,22 @@ ul {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
     
 }
 
 nav {
     padding-top: 24px;
-    margin-right: 20px;
+    margin-right: none;
     float: right;
     font-size: 20px;
     list-style-type: none;
     display: flex;
+}
+
+#profile-container {
+    margin-left: 20px;
 }
 
 header {
@@ -51,6 +57,7 @@ header ul {
   
 header li {
     float: right;
+    border-bottom-left-radius: 15px;
 }
   
 header li a {
@@ -120,7 +127,7 @@ section {
 .container1{
     margin: 20px auto;
     width:800px;
-    height:800px;
+    height:auto;
     background-color:var(--color3);
     display:grid;
     grid-template-columns: 800px;
@@ -132,7 +139,7 @@ section {
 .container2{
     margin: 20px auto;
     width:800px;
-    height:800px;
+    height:auto;
     background-color:var(--color3);
     display:grid;
     grid-template-columns: 400px 400px;
@@ -149,6 +156,7 @@ section {
     align-items:center;
     justify-content:center;
     font-size:40px;
+    
 }
 
 #about {
@@ -163,6 +171,22 @@ section {
     display: flex;
 }
 
+#resume a {
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    background-color: var(--color4);
+    color: var(--color2);
+
+}
+#resume a:hover {
+    filter: none;
+    background-color: var(--color1);
+    color: var(--color3);
+
+}
+
+
 #resume .content-card {
  
     width:75%;
@@ -175,6 +199,21 @@ section {
     width:75%;
     justify-items: center;
     display: flex;
+}
+
+#contact a {
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    background-color: var(--color4);
+    color: var(--color2);
+
+}
+#contact a:hover {
+    filter: none;
+    background-color: var(--color1);
+    color: var(--color3);
+
 }
 
 #work .content-card {
@@ -192,10 +231,79 @@ section {
     border-left: solid var(--color4) 5px;
 }
 
+a {
+    margin: 15px;
+    align-items: center;
+    width: fit-content;
+}
+
+a:hover {
+    filter: blur(5px);
+}
+
+nav a:hover  {
+    filter: none;
+    
+}
+
 
 @media (max-width: 767px) {
     .container2 {
         display: block;
+        width: auto;
+        height: fit-content;
+    }
+    .container1 {
+        display: block;
+        width: auto;
+        height: fit-content;
+    }
+    section {
+        display: block;
+    }
+    body {
+        display: block;
+    }
+    #about {
+        display: block;
+        width: auto;
+    }
+    #about p {
+        width: 100%;
+    }
+    #profile-container {
+        height: fit-content;
+    }
+    #description {
+        width: auto;
+    }
+    #about .content-card {
+        width: auto;
+    }
+    .box {
+        margin: 10px auto;
+        height: auto;
+    }
+    nav {
+        display: block;
+        width: auto;
+        margin-left: 15px;
+        
+    }
+
+    h2 {
+        width: 100%;
+        text-align: center;
+    }
+    ul {
+        margin: none;
+    }
+    p {
+        display: block;
+        width: fit-content;
+    }
+    h2 {
+        margin-top: 15px;
     }
 }
 
