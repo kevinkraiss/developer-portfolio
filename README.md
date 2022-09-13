@@ -5,6 +5,9 @@ The purpose of this page is to give potential employers a way to acces material 
 
 Placeholders are in use for my resume, contact info, and projects 3-5. Right now, they are jsut linked to the most recent project. I will be able to update them as we complete more work.
 
-Below is a screenshot of the portfolio:
+Link: https://kevinkraiss.github.io/developer-portfolio/
 
+GitHub Repo: https://github.com/kevinkraiss/developer-portfolio
+
+Below is a screenshot of the portfolio:
 ![preview](./assets/images/readme.png)
