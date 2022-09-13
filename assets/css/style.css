@@ -32,7 +32,7 @@ ul {
 
 nav {
     padding-top: 24px;
-    margin-right: none;
+    margin-right: 0px;
     float: right;
     font-size: 20px;
     list-style-type: none;
@@ -296,7 +296,7 @@ nav a:hover  {
         text-align: center;
     }
     ul {
-        margin: none;
+        margin: 0px;
     }
     p {
         display: block;
